@@ -1,0 +1,250 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+/*.........................home.html..............................*/
+#wrap
+{
+height:660px;
+width: 1290px;
+}
+header{
+height: 100px;
+width: 100%;
+background-color:teal;
+}
+section
+{
+height: 485px;
+width: 100%;
+}
+footer{
+height: 80px;
+width: 100%;
+background-color: teal;   
+}
+.logo{
+padding: 40px;
+margin-left: 4px;
+}
+.logo img{
+ height: 60px;
+ width: 130px;
+ margin-top: -145px;
+ padding-left: 30px;
+}
+li a {
+color: white;
+text-decoration: none;
+}
+/* nav{
+float: right;
+word-spacing: 40px;
+padding: 30px;
+}
+nav li{
+display: inline-block;
+line-height: 40px;
+} */
+.hcolor{
+color: white;
+margin-top: -5px;
+margin-left: -10px;
+}
+section .section_img{
+height: 489px;
+background: url(images/pic.png);
+margin-top: -48px;
+}
+.timing{
+height: 300px;
+width: 450px;
+margin: auto 390px;
+background: rgb(79, 83, 72);
+text-align: center;
+color: white;
+/* opacity: 0.5; */
+}
+.fdes{
+text-align: center;
+justify-content: center;
+color: white;
+margin: auto 0px;
+}
+.wdes{
+text-align: center;
+color: white;
+font-size: 10px;
+}
+li a:nth-child(1)
+{
+text-decoration: none;
+color: white;
+}
+/*.......................Student_login.html ......................*/
+.login_img{
+    height: 600px;
+    background-image: url(images/sec.jpeg);
+    background-color:darkslategray;
+}
+.box{
+    height: 420px;
+    width: 450px;
+    margin: auto 390px;
+    background: rgb(60, 65, 53);
+    text-align: center;
+    color: white;
+    /* opacity: 0.5; */
+    margin-top: -20px;
+    }
+#er{
+  height: 20px;
+  width: 210px;
+  color: #000;
+  margin-left:  25%;
+}
+button{
+border-radius: 10px;
+}
+p .gh{
+color: white;
+text-decoration: none;
+}
+.headchange{
+height: 80px;
+}
+.re{
+height: 100px;
+margin-top: 3px;
+}
+/* ......................... reg.html ...................*/
+.reg_img
+{
+    background-image: url("images/reg.png");
+    width: 100%;
+    height: 617px;
+}
+.box1
+{
+    height: 610px;
+    width: 450px;
+    margin: 0px auto;
+    background-color: rgb(17, 16, 27);
+    text-align: center;
+    color: white;
+    /* opacity: 0.5; */
+    padding: 20px;
+    margin-top: -60px;
+    }
+form .Registration
+{
+    margin: auto 50px;
+}
+.res
+{
+    height: 86px;
+    margin-top: 24px;
+}
+.homef
+{
+    margin-top: 4px;
+}
+#wq{margin-top: 120px;
+}
+li:hover
+{
+    background: #333;
+    /* opacity: 0.3; */
+    transform: scale(1.1);
+}
+.navbar-header:hover
+{
+    color: black;
+}
